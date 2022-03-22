@@ -1,0 +1,18 @@
+{
+  "name": "purchase",
+  "version": "1.0.0",
+  "description": "nodejs plugin for cpay merchant purchase transaction",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nawaf Abdullah",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "form-data": "^4.0.0"
+  }
+}
