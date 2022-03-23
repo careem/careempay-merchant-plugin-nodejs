@@ -36,5 +36,4 @@ Then you can use Postman to call the endpoint and test it out.
 
 
 ## Contribution
-If you are interested in improving this plugin and contributing, please refer to our contrubution guidelines. 
-
+If you are interested in improving this plugin and contributing, please refer to our [contrubution guidelines](https://github.com/careem/careempay-merchant-plugin-nodejs/blob/master/CONTRIBUTION.md). 
