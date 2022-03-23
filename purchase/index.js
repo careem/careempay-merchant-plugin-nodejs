@@ -21,8 +21,8 @@ const app = express()
 require('dotenv').config()
 
 // The URLS are dynamically configured depending on your sandboxMode value
-let identity_url = process.env.SANDBOX_ENABLED ? "https://identity.qa.careem-engineering.com" : "https://identity.careem.com"
-let cpay_url = process.env.SANDBOX_ENABLED ? "https://partnergateway.careem-internal.com" : "https://partnergateway.careem-engineering.com"
+let identity_url = process.env.SANDBOX_ENABLED ? process.env.IDENTITY_SANDBOX_ENDPOINT : process.env.IDENTITY_PROD_ENDPOINT
+let cpay_url = process.env.SANDBOX_ENABLED ? process.env.PAY_SANDBOX_ENDPOINT : process.env.PAY_PROD_ENDPOINT
 let redirect_url = process.env.SANDBOX_ENABLED ? "https://checkout.sandbox.cpay.me?invoiceId=" : "https://checkout.cpay.me?invoiceId="
 
 app.use(express.json())
