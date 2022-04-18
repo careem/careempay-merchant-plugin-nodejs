@@ -1,0 +1,32 @@
+{
+  "name": "refund",
+  "version": "1.0.0",
+  "description": "nodejs plugin for cpay merchant refund  transaction",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/careem/careempay-merchant-plugin-nodejs.git"
+  },
+  "keywords": [
+    "refund",
+    "merchant",
+    "cpay"
+  ],
+  "author": "Nawaf Abdullah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/careem/careempay-merchant-plugin-nodejs/issues"
+  },
+  "homepage": "https://github.com/careem/careempay-merchant-plugin-nodejs#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "form-data": "^4.0.0"
+  }
+}
