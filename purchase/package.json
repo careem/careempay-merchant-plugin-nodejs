@@ -10,7 +10,7 @@
   "author": "Nawaf Abdullah",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.25.0",
+    "axios": "^1.6.0",
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "form-data": "^4.0.0"
